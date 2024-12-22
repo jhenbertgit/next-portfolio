@@ -15,8 +15,8 @@ This is my portfolio website.
 1. Clone the repository
 
 ```bash
-git clone [repository-url]
-cd [project-directory]
+git clone https://github.com/jhenbertgit/next-portfolio.git
+cd next-portfolio
 ```
 
 2. Install dependencies
@@ -54,14 +54,15 @@ The application will be available at [http://localhost:3000](http://localhost:30
 ### Project Structure
 
 ```
-├── app/                # Next.js 13+ App Router
-│   ├── api/           # API routes
-│   ├── components/    # Shared components
-│   ├── lib/          # Utility functions
-│   └── [routes]/     # Application routes
-├── public/           # Static files
-├── styles/          # Global styles
-└── types/           # TypeScript type definitions
+├── public/              # Static files
+├── src/
+│   ├── app/             # Next.js 13+ App Router
+│   │   ├── api/         # API routes
+│   │   ├── globals.css  # Global styles
+│   │   ├── layout.tsx   # Layout component
+│   │   ├── page.tsx     # Page component
+│   ├── components/      # Shared components
+│   ├── lib/             # Utility functions
 ```
 
 ### Key Technologies
@@ -154,10 +155,6 @@ rm package-lock.json
 npm install
 ```
 
-## 🤝 Contributing
-
-Please read [CONTRIBUTING.md](link-to-contributing) for details on our code of conduct and the process for submitting pull requests.
-
 ## 📄 License
 
-This project is licensed under the [LICENSE TYPE] - see the [LICENSE.md](link-to-license) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
