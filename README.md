@@ -70,7 +70,6 @@ The application will be available at [http://localhost:3000](http://localhost:30
 - Next.js 13+
 - TypeScript
 - Tailwind CSS
-- [Other major dependencies]
 
 ### Coding Standards
 
@@ -157,4 +156,4 @@ npm install
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](/LICENSE.md) file for details.
