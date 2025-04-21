@@ -1,10 +1,10 @@
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
+import Hero from "@/components/shared/Hero";
+import Navbar from "@/components/shared/Navbar";
 // import Achievements from "./components/Achievements";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Email from "@/components/Email";
-import Footer from "@/components/Footer";
+import About from "@/components/shared/About";
+import Projects from "@/components/shared/Projects";
+import Email from "@/components/shared/Email";
+import Footer from "@/components/shared/Footer";
 
 export default function Home() {
   return (

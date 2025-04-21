@@ -7,7 +7,7 @@ interface EmailTemplateProps {
   message: string;
 }
 
-export const EmailTemplate: React.FC<EmailTemplateProps> = async ({
+export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   email,
   subject,
   message,

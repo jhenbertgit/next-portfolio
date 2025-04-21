@@ -1,8 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import GithubIcon from "../../public/github-icon.svg";
-import LinkedinIcon from "../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import { toast } from "@/hooks/use-toast";
@@ -22,7 +20,7 @@ const Email = () => {
       subject: formData.get("subject") as string,
       message: formData.get("message") as string,
     };
-
+    console.log("data: ", data);
     try {
       const response = await fetch("/api/send", {
         method: "POST",
@@ -31,7 +29,6 @@ const Email = () => {
         },
         body: JSON.stringify(data),
       });
-
       const responseData = await response.json();
 
       if (response.status === 200) {
@@ -76,10 +73,20 @@ const Email = () => {
         </p>
         <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/jhenbertgit">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image
+              src="/github-icon.svg"
+              width={32}
+              height={32}
+              alt="Github Icon"
+            />
           </Link>
           <Link href="https://www.linkedin.com/in/jhenbert">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image
+              src="/linkedin-icon.svg"
+              width={32}
+              height={32}
+              alt="Linkedin Icon"
+            />
           </Link>
         </div>
       </div>
@@ -99,7 +106,7 @@ const Email = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="juan@google.com"
+              placeholder="juan@gmail.com"
             />
           </div>
           <div className="mb-6">
