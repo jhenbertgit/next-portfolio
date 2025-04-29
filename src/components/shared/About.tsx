@@ -55,25 +55,27 @@ const About = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image
-          src="/images/about-image.png"
-          width={500}
-          height={500}
-          alt="about"
-        />
+        <div className="relative flex items-center justify-center w-[504px] h-[504px]">
+          <div className="p-[3px] rounded-3xl bg-gradient-to-br from-primary-700 to-secondary-700 shadow-2xl transition-transform duration-300 hover:scale-105 hover:shadow-[0_8px_32px_rgba(0,0,0,0.25)]">
+            <Image
+              src="/images/about-image.png"
+              width={500}
+              height={500}
+              alt="about"
+              className="rounded-3xl object-cover bg-[#121212]"
+            />
+          </div>
+        </div>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base text-justify lg:text-lg">
-            Hi! I&apos;m a freelance full-stack web developer with a passion for
-            crafting responsive, user-friendly web applications that combine
-            seamless performance with stunning design. Since 2022, I&apos;ve
-            been working on personal projects, leveraging versatile skills in
-            front-end and back-end technologies like React, Svelte, and Node.js
-            to build interactive interfaces and scalable server solutions.
-            Driven by a love for solving complex problems and continuous
-            learning, I stay up-to-date with the latest web development trends
-            and tools, ready to tackle new challenges and create something
-            amazing!
+            I architect performant web solutions that blend cutting-edge tools
+            with client-centric development. My focus on Next.js ISR/SSR and
+            Nest.js microservices ensures seamless user experiences, while
+            Prisma migrations and Redis caching optimize backend stability.
+            Let&apos;s transform your vision into a high-performance digital
+            product - with 40% faster delivery cycles than traditional MERN
+            stacks.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

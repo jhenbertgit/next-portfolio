@@ -25,9 +25,9 @@ const Hero = () => {
               sequence={[
                 "Jhenbert",
                 1000,
-                "Full-Stack",
-                1000,
                 "Web Developer",
+                1000,
+                "Web3 Architect",
                 1000,
               ]}
               wrapper="span"
@@ -36,8 +36,10 @@ const Hero = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Crafting tailored web solutions—let&apos;s build something
-            remarkable!
+            <em>
+              Let&apos;s skip the tech debt and build something that evolves
+              with your needs.
+            </em>
           </p>
           <div>
             <Link

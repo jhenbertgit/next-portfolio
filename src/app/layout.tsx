@@ -14,11 +14,41 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jhenbert | Freelance Full-Stack Developer",
+  title: "Jhenbert | Freelance Web/Web3 Developer",
   description:
-    "Freelance full-stack developer with 2 years of experience working on personal projects. Proficient in Svelte/SvelteKit, TypeScript, Prisma, and MySQL/PostgreSQL. Skilled in building and managing scalable web applications across the development stack.",
+    "Freelance full-stack developer with 3+ years of experience building scalable, SEO-optimized web apps for startups and SaaS. Expert in Next.js, NestJS, TypeScript, Prisma, and Redis. I help early-stage companies launch fast, modern, and high-performing digital products.",
   keywords:
-    "affordable web developer in the Davao, web developer in Davao, freelance web developer Davao portfolio, full-stack developer Davao portfolio, Davao-based web developer, hire web developer in Davao, web developer Davao, remote web developer Davao, affordable web development Davao",
+    "affordable full-stack web developer in Davao, freelance web developer Davao for startups, Davao-based full-stack developer for SaaS, hire remote web developer from Davao, SEO web development Davao, Next.js web developer in Davao, TypeScript developer Davao portfolio, SaaS web developer in Davao, NestJS developer for hire Davao, affordable web development services Davao, Davao web developer for scalable apps, remote freelance web developer Philippines, full-stack developer Davao with portfolio, startup web app developer in Davao, Prisma and Redis expert Davao, custom web development Davao Philippines",
+  openGraph: {
+    title: "Jhenbert | Freelance Web/Web3 Developer",
+    description:
+      "Freelance full-stack developer with 3+ years of experience building scalable, SEO-optimized web apps for startups and SaaS. Expert in Next.js, NestJS, TypeScript, Prisma, and Redis. I help early-stage companies launch fast, modern, and high-performing digital products.",
+    type: "website",
+    url: "https://jhenbert.pro",
+    siteName: "Jhenbert | Freelance Web/Web3 Developer",
+    images: [
+      {
+        url: "https://jhenbert.pro/images/hero-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jhenbert | Freelance Web/Web3 Developer",
+      },
+    ],
+  },
+  twitter: {
+    title: "Jhenbert | Freelance Web/Web3 Developer",
+    description:
+      "Freelance full-stack developer with 3+ years of experience building scalable, SEO-optimized web apps for startups and SaaS. Expert in Next.js, NestJS, TypeScript, Prisma, and Redis. I help early-stage companies launch fast, modern, and high-performing digital products.",
+    card: "summary_large_image",
+    images: [
+      {
+        url: "https://jhenbert.pro/images/hero-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Jhenbert | Freelance Web/Web3 Developer",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
