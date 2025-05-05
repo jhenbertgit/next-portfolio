@@ -73,7 +73,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
             textAlign: "center",
           }}
         >
-          This message was sent via Jhenbert's portfolio contact form.
+          This message was sent via Jhenbert&apos;s portfolio contact form.
         </p>
       </div>
     </body>
