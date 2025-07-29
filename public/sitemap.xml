@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
-  <url>
-    <loc>https://jhenbert.pro/</loc>
-    <lastmod>2024-12-27T11:06:28+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://jhenbert.pro/resume.pdf</loc>
-    <lastmod>2024-12-27T11:06:27+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
+<url>
+  <loc>https://www.jhenbert.dev/</loc>
+  <lastmod>2025-07-29T02:48:56+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.jhenbert.dev/resume.pdf</loc>
+  <lastmod>2025-07-29T02:48:56+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
 
 
 </urlset>
