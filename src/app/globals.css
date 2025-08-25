@@ -89,3 +89,8 @@
 .error-toast {
   @apply bg-red-100 text-red-900;
 }
+
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}

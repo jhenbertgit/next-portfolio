@@ -9,16 +9,16 @@ const projectsData = [
   {
     id: 1,
     title: "Hulagway",
-    description: "AI-driven image transformation",
+    description: "AI-driven image transformation.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jhenbertgit/symph-challenge-1",
-    previewUrl: "https://symph-challenge-1.vercel.app",
+    previewUrl: "https://hulagway-ai.vercel.app/",
   },
   {
     id: 2,
     title: "Cash Paluwagan System",
-    description: "Exclusive Paluwagan system for invited members",
+    description: "Exclusive Paluwagan system for invited members.",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jhenbertgit/cash-paluwagan-system",
@@ -26,12 +26,13 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "ByteMinds PH Website",
-    description: "A platform for tutors and freelancers",
+    title: "File Search Tool",
+    description:
+      "Advanced file search with real-time indexing for rapid retrieval.",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/bytemindstech/byteminds",
-    previewUrl: "https://www.bytemindsph.com",
+    tag: ["All", "Desktop"],
+    gitUrl: "https://github.com/jhenbertgit/file-search-tool",
+    previewUrl: "https://github.com/jhenbertgit/file-search-tool/releases",
   },
 ];
 
@@ -71,8 +72,8 @@ const Projects = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Desktop"
+          isSelected={tag === "Desktop"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">

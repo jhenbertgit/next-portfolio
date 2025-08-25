@@ -2,6 +2,9 @@
   "name": "next-portfolio-modern",
   "version": "0.1.0",
   "private": true,
+  "$schema": "http://json.schemastore.org/package",
+  "author": "Jhenbert",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

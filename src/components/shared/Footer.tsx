@@ -8,7 +8,7 @@ const Footer = () => {
         <span>
           <Image src="/portfolio-logo.svg" alt="Logo" width={32} height={32} />
         </span>
-        <p className="text-slate-600">All rights reserved.</p>
+        <p className="text-slate-600">Copyright (c) 2024 Jhenbert</p>
       </div>
     </footer>
   );

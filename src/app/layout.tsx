@@ -27,11 +27,11 @@ export const metadata: Metadata = {
     description:
       "Freelance full-stack developer with 3+ years of experience building scalable, SEO-optimized web apps for startups and SaaS. Expert in Next.js, NestJS, TypeScript, Prisma, and Redis. I help early-stage companies launch fast, modern, and high-performing digital products.",
     type: "website",
-    url: "https://jhenbert.pro",
+    url: "https://jhenbert.dev",
     siteName: "Jhenbert | Freelance Web/Web3 Developer",
     images: [
       {
-        url: "https://jhenbert.pro/images/hero-image.png",
+        url: "https://jhenbert.dev/images/hero-image.png",
         width: 1200,
         height: 630,
         alt: "Jhenbert | Freelance Web/Web3 Developer",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     images: [
       {
-        url: "https://jhenbert.pro/images/hero-image.png",
+        url: "https://jhenbert.dev/images/hero-image.png",
         width: 1200,
         height: 630,
         alt: "Jhenbert | Freelance Web/Web3 Developer",
